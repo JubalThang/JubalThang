@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body {
+    font-family: 'Righteous', cursive;
+}
+.container {
+    position: absolute;
+    height: 30em;
+    width: 100%;
+    background-color: rgb(238, 132, 45);
+}
+.image_holder {
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background-color: white;
+}
+h1 {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+img {
+    width: 190px;
+    height: 190px;
+    border-radius: 95px;
+    object-fit: cover;
+    margin-left: 5px;
+    margin-top: 5px;
+    /* clip: rect(0px,700px,500px,200px); */
+    /* margin-left: 2em; */
+}
+#nav-bar {
+    height: 50px;
+    /* background-color: #333; */
+}
+#nav-bar h5 {
+    margin: auto;
+    color: teal;
+}
+
+ul {
+   float: left;
+   list-style-type: none;
+}
+li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    padding: 14px 16px;
+    color: white;
+}
+li a:hover {
+   color: rgb(59, 59, 59);
+}
+li {
+    float: left;
+}
+.bottom {
+    background-color: tomato;
+    height: 300px;
+}
