@@ -7,10 +7,10 @@ body {
     font-family: 'Righteous', cursive;
 }
 .container {
-    position: absolute;
-    height: 30em;
+    border-radius: 3px;
+    position: relative;
     width: 100%;
-    background-color: rgb(238, 132, 45);
+    background-color:#eee;
 }
 .image_holder {
     margin: auto;
@@ -19,9 +19,9 @@ body {
     border-radius: 100px;
     background-color: white;
 }
-h1 {
+.center {
     text-align: center;
-    color: white;
+    color: rgb(185, 89, 89);
     padding: 20px;
 }
 img {
@@ -52,15 +52,23 @@ li a {
     padding: 8px;
     text-decoration: none;
     padding: 14px 16px;
-    color: white;
+    color: rgb(59, 59, 59);
 }
 li a:hover {
-   color: rgb(59, 59, 59);
+   color: rgb(182, 182, 182);
 }
 li {
     float: left;
 }
 .bottom {
+   height: 30px;
+   background-color: sienna;
+}
+.colored-background {
     background-color: tomato;
-    height: 300px;
+}
+
+.projects-container {
+   background-color: white;
+   padding-top: 1.2rem;
 }
