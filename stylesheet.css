@@ -2,16 +2,19 @@
     margin: 0;
     padding: 0;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 body {
     font-family: 'Righteous', cursive;
 }
+
 .container {
     border-radius: 3px;
     position: relative;
-    width: 100%;
-    background-color:#eee;
+    height: 100vh;
+    background-color: rgb(245, 245, 245);
 }
+
 .image_holder {
     margin: auto;
     height: 200px;
@@ -19,11 +22,14 @@ body {
     border-radius: 100px;
     background-color: white;
 }
+
 .center {
     text-align: center;
-    color: rgb(185, 89, 89);
     padding: 20px;
+    width: 75%;
+    margin: auto;
 }
+
 img {
     width: 190px;
     height: 190px;
@@ -34,19 +40,22 @@ img {
     /* clip: rect(0px,700px,500px,200px); */
     /* margin-left: 2em; */
 }
+
 #nav-bar {
     height: 50px;
     /* background-color: #333; */
 }
+
 #nav-bar h5 {
     margin: auto;
     color: teal;
 }
 
 ul {
-   float: left;
-   list-style-type: none;
+    float: left;
+    list-style-type: none;
 }
+
 li a {
     display: block;
     padding: 8px;
@@ -54,29 +63,28 @@ li a {
     padding: 14px 16px;
     color: rgb(59, 59, 59);
 }
+
 li a:hover {
-   color: rgb(182, 182, 182);
+    color: rgb(182, 182, 182);
 }
+
 li {
     float: left;
 }
+
 .bottom {
-   height: 30px;
-   background-color: sienna;
+    padding: 5px;
+    min-height: 20px;
 }
+
 .colored-background {
     background-color: tomato;
-<<<<<<< HEAD
-=======
 }
 
 .projects-container {
-   background-color: white;
-   padding-top: 1.2rem;
->>>>>>> e3ff48395665ed7c0b8c7efee0a8535d1f7a7c56
+    padding-top: 1.2rem;
 }
 
-.projects-container {
-   background-color: white;
-   padding-top: 1.2rem;
+form button {
+    margin: 20px;
 }
