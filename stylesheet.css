@@ -3,88 +3,76 @@
     padding: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 body {
-    font-family: 'Righteous', cursive;
+    background-color: rgb(34, 34, 34);
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Outfit', sans-serif; */
 }
 
-.container {
-    border-radius: 3px;
-    position: relative;
-    height: 100vh;
-    background-color: rgb(245, 245, 245);
-}
-
-.image_holder {
-    margin: auto;
-    height: 200px;
-    width: 200px;
-    border-radius: 100px;
-    background-color: white;
-}
-
-.center {
-    text-align: center;
-    padding: 20px;
-    width: 75%;
-    margin: auto;
-}
 
 img {
-    width: 190px;
-    height: 190px;
-    border-radius: 95px;
-    object-fit: cover;
-    margin-left: 5px;
-    margin-top: 5px;
-    /* clip: rect(0px,700px,500px,200px); */
-    /* margin-left: 2em; */
+    width: 600px;
+    height: 400px;
+    z-index: -1;
 }
 
-#nav-bar {
-    height: 50px;
-    /* background-color: #333; */
-}
-
-#nav-bar h5 {
-    margin: auto;
-    color: teal;
-}
-
-ul {
-    float: left;
-    list-style-type: none;
-}
 
 li a {
-    display: block;
-    padding: 8px;
     text-decoration: none;
-    padding: 14px 16px;
-    color: rgb(59, 59, 59);
+    color: rgb(240, 239, 239);
+    padding-left: 2rem;
+    transition: color 0.2s ease-out 10ms;
 }
 
 li a:hover {
-    color: rgb(182, 182, 182);
+    color: orange;
+    /* background-color:rgb(209, 209, 209) */
 }
 
-li {
-    float: left;
+.bio {
+    font-family: 'Space Mono', monospace;
 }
 
-.bottom {
-    padding: 5px;
-    min-height: 20px;
+.fa-react, .fa-html5, .fa-python, .fa-js, .fa-swift, .fa-gem {
+    transition: color 0.5s ease-out 10ms;
 }
 
-.colored-background {
-    background-color: tomato;
+.fa-js:hover {
+    color: #f7df1e;
 }
 
-.projects-container {
-    padding-top: 1.2rem;
+.fa-html5:hover {
+    color: #FF5733;
+}
+.fa-react:hover {
+    color: #61DAFB;
+}
+.fa-python:hover {
+    color: #4B8BBE;
 }
 
-form button {
-    margin: 20px;
+.fa-swift:hover {
+    color: #F05138;
 }
+
+.fa-gem:hover {
+    color: #BE1B11;
+}
+
+.name {
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    width: 100%;
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+    font-size: .75em;
+    font-family: League Spartan,Helvetica,Arial,sans-serif;
+    opacity: 0;
+    transition: opacity .3s,-webkit-transform .3s cubic-bezier(.694,.048,.335,1);
+    transition: opacity .3s,transform .3s cubic-bezier(.694,.048,.335,1);
+    transition: opacity .3s,transform .3s cubic-bezier(.694,.048,.335,1),-webkit-transform .3s cubic-bezier(.694,.048,.335,1);
+}
+
+
+
