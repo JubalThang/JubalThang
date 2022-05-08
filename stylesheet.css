@@ -37,27 +37,10 @@ li a:hover {
     transition: color 0.5s ease-out 10ms;
 }
 
-.fa-js:hover {
-    color: #f7df1e;
+.fa-js:hover, .fa-html5:hover, .fa-react:hover, .fa-python:hover, .fa-swift:hover, .fa-gem:hover{
+    color: rgb(240, 239, 239);
 }
 
-.fa-html5:hover {
-    color: #FF5733;
-}
-.fa-react:hover {
-    color: #61DAFB;
-}
-.fa-python:hover {
-    color: #4B8BBE;
-}
-
-.fa-swift:hover {
-    color: #F05138;
-}
-
-.fa-gem:hover {
-    color: #BE1B11;
-}
 
 .name {
     position: absolute;
